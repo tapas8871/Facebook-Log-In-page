@@ -11,27 +11,23 @@ body{
 }
 .first-section{
     width: 50%;
-    margin-left: 230px;
-    margin-top: 5%;
+    margin-left: 250px;
+    margin-top: 40px;
 }
 
 .second-section{
     width: 50%;
 }
 
-h1{
-    font-size: 60px;
-    margin-bottom: 0%;
-    color: rgb(111, 111, 241);
-    letter-spacing: -1px;
-}
 p{
     font-size: 30px;
+    margin-top: 0;
 }
 
 .div1{
-    line-height: 30px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 .div2{
@@ -86,7 +82,13 @@ p{
     font-weight: bold;
 }
 .hr-style{
+    
     border:  0.01px solid rgb(102, 86, 86);
     border-width: 0.01px;
     width: 350px;
+}
+
+img{
+    width: 250px;
+    margin-top: 10px;
 }
